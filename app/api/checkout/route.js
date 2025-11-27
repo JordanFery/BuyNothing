@@ -90,8 +90,8 @@ export async function POST(req) {
             ],
             mode: recurring ? "subscription" : "payment",
             payment_method_types: ["card"],
-            success_url: "http://localhost:3000/success",
-            cancel_url: "http://localhost:3000/",
+            success_url: "https://buynothingclub.vercel.app/succes",
+            cancel_url: "https://buynothingclub.vercel.app/",
         });
 
 
