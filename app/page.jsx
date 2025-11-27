@@ -68,7 +68,7 @@ export default function Home() {
       <div className="max-w-md w-full mb-8 p-6 bg-white border border-gray-200 rounded-2xl text-left shadow-sm">
         <p className="mb-2 font-semibold">Panier</p>
         <p>Produit sélectionné : {selected.name}</p>
-        <p className="text-lg font-bold mt-4">Total : ${total.toLocaleString()}</p>
+        <p className="text-lg font-bold mt-4">Total : {total.toLocaleString()}€</p>
         <p className="mt-2 text-gray-500 italic">
           Vous êtes sur le point d’acquérir… rien. Félicitations.
         </p>
