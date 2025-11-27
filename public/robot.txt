@@ -1,0 +1,6 @@
+# Autoriser tous les moteurs de recherche
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.buynothing.com/sitemap.xml
