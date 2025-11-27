@@ -120,7 +120,7 @@ export default function Home() {
   const total = selected.price;
 
   return (
-    <main className="min-h-screen bg-neutral-50 flex flex-col items-center px-6 py-12 text-center">
+    <main className="min-h-screen bg-neutral-50 flex flex-col items-center px-6 py-12 text-center text-black">
       {/* Hero Section */}
       <div className="max-w-3xl mb-12">
         <h1 className="text-5xl font-extrabold mb-4 tracking-wide text-black">
